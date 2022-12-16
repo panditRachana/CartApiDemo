@@ -13,6 +13,12 @@
 		80738FF829434B9000C64DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80738FF629434B9000C64DC8 /* Main.storyboard */; };
 		80738FFA29434B9500C64DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80738FF929434B9500C64DC8 /* Assets.xcassets */; };
 		80738FFD29434B9500C64DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80738FFB29434B9500C64DC8 /* LaunchScreen.storyboard */; };
+		8073900529435FB600C64DC8 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073900429435FB600C64DC8 /* CartViewController.swift */; };
+		80739008294364F500C64DC8 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80739006294364F500C64DC8 /* CartTableViewCell.swift */; };
+		80739009294364F500C64DC8 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80739007294364F500C64DC8 /* CartTableViewCell.xib */; };
+		8073900E2943667300C64DC8 /* CartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073900C2943667300C64DC8 /* CartCollectionViewCell.swift */; };
+		8073900F2943667300C64DC8 /* CartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8073900D2943667300C64DC8 /* CartCollectionViewCell.xib */; };
+		807390112943798800C64DC8 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807390102943798800C64DC8 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		80738FF929434B9500C64DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80738FFC29434B9500C64DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80738FFE29434B9500C64DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8073900429435FB600C64DC8 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		80739006294364F500C64DC8 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		80739007294364F500C64DC8 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		8073900C2943667300C64DC8 /* CartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollectionViewCell.swift; sourceTree = "<group>"; };
+		8073900D2943667300C64DC8 /* CartCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCollectionViewCell.xib; sourceTree = "<group>"; };
+		807390102943798800C64DC8 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				80738FF229434B9000C64DC8 /* SceneDelegate.swift */,
 				80738FF429434B9000C64DC8 /* ViewController.swift */,
 				80738FF629434B9000C64DC8 /* Main.storyboard */,
+				80739006294364F500C64DC8 /* CartTableViewCell.swift */,
+				807390102943798800C64DC8 /* Cart.swift */,
+				80739007294364F500C64DC8 /* CartTableViewCell.xib */,
+				8073900D2943667300C64DC8 /* CartCollectionViewCell.xib */,
+				8073900C2943667300C64DC8 /* CartCollectionViewCell.swift */,
+				8073900429435FB600C64DC8 /* CartViewController.swift */,
 				80738FF929434B9500C64DC8 /* Assets.xcassets */,
 				80738FFB29434B9500C64DC8 /* LaunchScreen.storyboard */,
 				80738FFE29434B9500C64DC8 /* Info.plist */,
@@ -126,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				80738FFD29434B9500C64DC8 /* LaunchScreen.storyboard in Resources */,
+				8073900F2943667300C64DC8 /* CartCollectionViewCell.xib in Resources */,
 				80738FFA29434B9500C64DC8 /* Assets.xcassets in Resources */,
 				80738FF829434B9000C64DC8 /* Main.storyboard in Resources */,
+				80739009294364F500C64DC8 /* CartTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8073900529435FB600C64DC8 /* CartViewController.swift in Sources */,
 				80738FF529434B9000C64DC8 /* ViewController.swift in Sources */,
+				80739008294364F500C64DC8 /* CartTableViewCell.swift in Sources */,
+				807390112943798800C64DC8 /* Cart.swift in Sources */,
 				80738FF129434B9000C64DC8 /* AppDelegate.swift in Sources */,
+				8073900E2943667300C64DC8 /* CartCollectionViewCell.swift in Sources */,
 				80738FF329434B9000C64DC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
